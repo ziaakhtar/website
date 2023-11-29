@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONATCT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+
+        </nav>
+        <h1>Our Certificates & Online Programs For 2021</h1>
+    </section>
+    <section class="blog-content">
+<div class="row">
+    <div class="blog-left">
+        <img src="certificate.jpg">
+        <h2>Our Certificates & Online Programs For 2021</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium dolorem omnis dolores at. Eaque soluta ea ratione ullam dicta ducimus neque obcaecati velit sit facilis. Suscipit earum ipsam beatae impedit!</p>
+        <br>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum repudiandae, distinctio voluptate animi consequatur ipsum rem veritatis voluptatum, iure assumenda, dolor maxime quis dolorem. Eius rerum repellat cupiditate dolore ipsa fuga, sapiente optio veritatis laboriosam dolores? Incidunt, eius quidem. Laudantium!</p>
+        <br>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quis assumenda tempora, libero natus culpa aliquid nihil maxime quisquam amet nemo explicabo at corrupti blanditiis quidem voluptatibus mollitia consectetur est error nostrum similique accusamus maiores animi? Expedita assumenda, inventore, reiciendis non dolores perferendis cupiditate ducimus, consequatur accusamus voluptas amet officia.</p>
+        <br>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta neque aperiam cumque? Eius repudiandae minima eum assumenda cum praesentium numquam molestias atque consectetur mollitia ullam, eligendi saepe! Aliquid, fugiat expedita enim, optio sapiente aut explicabo nisi quaerat repellat laboriosam corporis.</p>
+        <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form class="comment-form">
+                <input type="text" placeholder="Enter Name">
+                <input type="text" placeholder="Enter Email">
+                <textarea row="5"placeholder="your comment"></textarea>
+                <button type="Submit" class="hero-btn red-btn">POST COMMENT</button>
+
+            </form>
+        </div>
+
+
+    </div>
+    
+    <div class="blog-right">
+    <h3>Post Categories</h3>
+    <div>
+        <span>Business Analytics</span>
+        <span>21</span>
+    </div>
+    <div>
+        <span>Data Science</span>
+        <span>28</span>
+    </div>
+    <div>
+        <span>Machine Learning</span>
+        <span>15</span>
+    </div>
+    <div>
+        <span>Computer Science</span>
+        <span>34</span>
+    </div>
+    <div>
+        <span>AutoCAD</span>
+        <span>42</span>
+    </div>
+    <div>
+        <span>Journalism</span>
+        <span>32</span>
+    </div>
+</div>
+</div>
+
+    </section>
+    
+   
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, dolorem consequatur sed quia reiciendis
+            est itaque aspernatur a porro recusandae</P>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+        </div>
+    </section>
+    <script>
+         var navLinks = document.getElementById("navLinks");
+
+function showMenu() {
+    navLinks.style.right = "0";
+}
+function hideMenu() {
+    navLinks.style.right = "-200px";
+}
+    </script>
+</body>
+</html>

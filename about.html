@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONATCT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+
+        </nav>
+        <h1>About Us</h1>
+    </section>
+    <section class="about-us">
+<div class="row">
+    <div class="about-col">
+    <h1>We Are The World's Largest University</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae nulla reiciendis ullam eligendi repellat nihil neque rem aspernatur omnis sequi?</p>
+    <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+</div>
+<div class="about-col">
+    <img src="about.jpg">
+</div>
+</div>
+
+    </section>
+
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, dolorem consequatur sed quia reiciendis
+            est itaque aspernatur a porro recusandae</P>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+        </div>
+    </section>
+    <script>
+         var navLinks = document.getElementById("navLinks");
+
+function showMenu() {
+    navLinks.style.right = "0";
+}
+function hideMenu() {
+    navLinks.style.right = "-200px";
+}
+    </script>
+</body>
+</html>
